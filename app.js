@@ -17,7 +17,7 @@ appForm.addEventListener("submit", function(e){
 
             showBtnPlayAgain();
         }else{
-            msg.textContent = "Sorry!, " + trial + " trial left.";
+            msg.textContent = "Sorry!, " + trial + " turn(s) left.";
         }
     }else{
         msg.textContent = "Sorry! You failed.";
